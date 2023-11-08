@@ -1,0 +1,84 @@
+
+/*----------------------------*\
+	contact us
+\*----------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat",sans-serif;
+  }
+  body{
+    background: url("../img/mobileee.jpg") no-repeat center;
+    background-size: cover;
+   opacity: 0.9;
+  }
+  .contact-section{
+  margin-top: 50px;
+    padding: 40px 0;
+  
+  }
+  .contact-section h1{
+    text-align: center;
+    color: #ddd;
+  }
+  .border{
+    width: 100px;
+    height: 10px;
+    background: #34495e;
+    background: none;
+    margin: 40px auto;
+  }
+  
+  .contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+  background: none;
+  }
+  
+  .contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border:none;
+    border: 1px solid #ccc;
+    background: none;
+    padding: 20px 40px;
+    outline: none;
+    color: rgb(255, 253, 253);
+    transition: 0.5s;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  }
+  .contact-form-text:focus{
+    box-shadow: 0 0 10px 4px #fdfdfd;
+    background: rgb(226, 103, 103);
+    color: #ffffff;
+    font-size: 14px;
+  }
+  
+  ::placeholder { 
+    color: rgb(255, 255, 255);
+    opacity: 1; 
+    font-size: large;
+    text-align-last: center;
+  }
+  textarea.contact-form-text{
+    resize: none;
+    height: 120px;
+  
+  }
+  .contact-form-btn{
+    float: right;
+    border: 0;
+    background: #34495e;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .contact-form-btn:hover{
+    background: #2980b9;
+  }
